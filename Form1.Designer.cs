@@ -102,11 +102,11 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(692, 164);
+            this.label3.Location = new System.Drawing.Point(715, 167);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(115, 13);
+            this.label3.Size = new System.Drawing.Size(92, 13);
             this.label3.TabIndex = 7;
-            this.label3.Text = "Version 1 - Artúr Foden";
+            this.label3.Text = "v1.0 - Artúr Foden";
             // 
             // textBox5
             // 

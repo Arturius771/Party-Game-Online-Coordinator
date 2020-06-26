@@ -24,7 +24,7 @@ namespace SecretHitlerOnlineTimer {
         private bool colourEnabled;
         public Form1() {
             InitializeComponent();
-            comboBox1.SelectedItem = "30";
+            comboBox1.SelectedItem = "25";
         }
 
         private void button1_Click(object sender, EventArgs e) {
@@ -88,6 +88,7 @@ namespace SecretHitlerOnlineTimer {
                     if(colourEnabled == true) {
                         textBox4.BackColor = Color.GreenYellow;
                     }
+                    textBox4.Text = totalTime.ToString() + Environment.NewLine + "Everyone unmute and start the game!";
                     buttonReset();
                 }
             }

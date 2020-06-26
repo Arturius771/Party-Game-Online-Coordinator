@@ -87,7 +87,6 @@
     <Content Include="2020-06-26_11-14-52.png" />
     <Content Include="2020-06-26_13-57-30.png" />
     <Content Include="2020-06-26_13-58-35.png" />
-    <Content Include="PartyGameOnlineCoordinator.exe" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

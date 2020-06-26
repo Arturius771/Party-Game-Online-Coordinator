@@ -36,7 +36,7 @@ namespace SecretHitlerOnlineTimer {
                     timer.Start();
                     button1.Text = "Stop";
                     buttonPressed = !buttonPressed;
-                }
+                }//need to check that the data entered makes sense
                 else {
                     timer.Stop();
                     totalTime = 0;
@@ -46,7 +46,7 @@ namespace SecretHitlerOnlineTimer {
             }
             catch (Exception exception){
                 textBox4.Text = exception.ToString();
-            }
+            }//this doesnt work because I used tryparse
         }//Start Button
 
         private void timerTickMethod(object sender, EventArgs e) {
